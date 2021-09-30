@@ -1,0 +1,8 @@
+body {
+	background-image = url(background.jpg);
+}
+
+#inviteButton {
+	background-color: #4CAF50;
+	color: white;
+}
