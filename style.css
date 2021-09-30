@@ -1,7 +1,15 @@
+#hopBody {
+	
+}
+
 #serverName {
 	font-family: 'Bebas Neue', cursive;
 	color: #252525;
 	font-size: 100px;
+	text-align: center;
+}
+
+div {
 	text-align: center;
 }
 
