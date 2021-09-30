@@ -1,12 +1,13 @@
 #serverName {
 	font-family: 'Bebas Neue', cursive;
 	color: #252525;
+	font-size: 100px;
 }
 
 #inviteButton {
 	background-color: #64DFDF;
 	border: 2px solid #6930C3;
-	color: white;
+	color: #6930C3;
 	padding: 14px 40px;
 	text-align: center;
 	font-size: 24px;
@@ -15,7 +16,7 @@
 	font-family: 'Roboto', sans-serif;
 }
 
-#inviteButton.hover {
+#inviteButton:hover {
 	background-color: #6930C3;
 	color: white;
 }
