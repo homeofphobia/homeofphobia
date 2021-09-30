@@ -2,7 +2,10 @@
 	background-image: url("vaporwave.gif");
 	background-color: #300350;
 	background-repeat: no-repeat;
-	background-size: 100% 100%;
+	height: 200%;
+	
+	background-position: center;
+	background-size: cover;
 }
 
 #serverName {
@@ -16,10 +19,27 @@
 	text-align: center;
 }
 
+#homeButton {
+	background-color: #F62E97;
+	border: 2px solid #94167F;
+	color: #94167F;
+	padding: 14px 40px;
+	text-align: center;
+	font-size: 24px;
+	border-radius: 8px;
+	transition-duration: 0.4s;
+	font-family: 'Roboto', sans-serif;
+}
+
+#homeButton:hover {
+	background-color: #94167F;
+	color: white;
+}
+
 #inviteButton {
-	background-color: #64DFDF;
-	border: 2px solid #6930C3;
-	color: #6930C3;
+	background-color: #F62E97;
+	border: 2px solid #94167F;
+	color: #94167F;
 	padding: 14px 40px;
 	text-align: center;
 	font-size: 24px;
@@ -29,6 +49,10 @@
 }
 
 #inviteButton:hover {
-	background-color: #6930C3;
+	background-color: #94167F;
 	color: white;
+}
+
+#calendar {
+	text-align: center;
 }
