@@ -1,6 +1,8 @@
-#headerDiv {
+#hopBody {
 	background-image: url("vaporwave.gif");
 	background-color: #300350;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
 }
 
 #serverName {
