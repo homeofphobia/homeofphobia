@@ -1,15 +1,16 @@
-#hopBody {
-	
+#headerDiv {
+	background-image: url("vaporwave.gif");
+	background-color: #300350;
 }
 
 #serverName {
 	font-family: 'Bebas Neue', cursive;
-	color: #252525;
+	color: #F9AC53;
 	font-size: 100px;
 	text-align: center;
 }
 
-div {
+#bodyDiv {
 	text-align: center;
 }
 
