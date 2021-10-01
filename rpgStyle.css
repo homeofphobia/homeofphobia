@@ -27,7 +27,7 @@
 	text-align: center;
 }
 
-#homeButton {
+#homeButton, #inviteButton, #rpgsButton {
 	background-color: #F62E97;
 	border: 2px solid #94167F;
 	color: #94167F;
@@ -39,46 +39,12 @@
 	font-family: 'Roboto', sans-serif;
 }
 
-#homeButton:hover {
+#homeButton:hover, #inviteButton:hover, #rpgsButton:hover {
 	background-color: #94167F;
 	color: white;
 }
 
-#inviteButton {
-	background-color: #F62E97;
-	border: 2px solid #94167F;
-	color: #94167F;
-	padding: 14px 40px;
-	text-align: center;
-	font-size: 24px;
-	border-radius: 8px;
-	transition-duration: 0.4s;
-	font-family: 'Roboto', sans-serif;
-}
-
-#inviteButton:hover {
-	background-color: #94167F;
-	color: white;
-}
-
-#rpgsButton {
-	background-color: #F62E97;
-	border: 2px solid #94167F;
-	color: #94167F;
-	padding: 14px 40px;
-	text-align: center;
-	font-size: 24px;
-	border-radius: 8px;
-	transition-duration: 0.4s;
-	font-family: 'Roboto', sans-serif;
-}
-
-#rpgsButton:hover {
-	background-color: #94167F;
-	color: white;
-}
-
-#diceButton {
+#diceButton, #contentButton {
 	background-color: #F9AC53;
 	border: 2px solid #153CB4;
 	color: #153CB4;
@@ -90,24 +56,7 @@
 	font-family: 'Roboto', sans-serif;
 }
 
-#diceButton:hover {
-	background-color: #153CB4;
-	color: white;
-}
-
-#contentButton {
-	background-color: #F9AC53;
-	border: 2px solid #153CB4;
-	color: #153CB4;
-	padding: 14px 40px;
-	text-align: center;
-	font-size: 24px;
-	border-radius: 8px;
-	transition-duration: 0.4s;
-	font-family: 'Roboto', sans-serif;
-}
-
-#contentButton:hover {
+#diceButton:hover, #contentButton:hover {
 	background-color: #153CB4;
 	color: white;
 }
