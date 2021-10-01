@@ -1,0 +1,198 @@
+#topHat {
+	background-image: url("vaporwave.gif");
+	background-color: #300350;
+	background-repeat: no-repeat;
+	height: 20%;
+	background-position: center;
+	background-size: cover;
+}
+
+#hopBody {
+	background-color: #94167F;
+	background-repeat: no-repeat;
+	height: 400%;
+	
+	background-position: center;
+	background-size: cover;
+}
+
+#serverName {
+	font-family: 'Bebas Neue', cursive;
+	color: #F9AC53;
+	font-size: 100px;
+	text-align: center;
+}
+
+#bodyDiv, #rpgNav {
+	text-align: center;
+}
+
+#homeButton {
+	background-color: #F62E97;
+	border: 2px solid #94167F;
+	color: #94167F;
+	padding: 14px 40px;
+	text-align: center;
+	font-size: 24px;
+	border-radius: 8px;
+	transition-duration: 0.4s;
+	font-family: 'Roboto', sans-serif;
+}
+
+#homeButton:hover {
+	background-color: #94167F;
+	color: white;
+}
+
+#inviteButton {
+	background-color: #F62E97;
+	border: 2px solid #94167F;
+	color: #94167F;
+	padding: 14px 40px;
+	text-align: center;
+	font-size: 24px;
+	border-radius: 8px;
+	transition-duration: 0.4s;
+	font-family: 'Roboto', sans-serif;
+}
+
+#inviteButton:hover {
+	background-color: #94167F;
+	color: white;
+}
+
+#rpgsButton {
+	background-color: #F62E97;
+	border: 2px solid #94167F;
+	color: #94167F;
+	padding: 14px 40px;
+	text-align: center;
+	font-size: 24px;
+	border-radius: 8px;
+	transition-duration: 0.4s;
+	font-family: 'Roboto', sans-serif;
+}
+
+#rpgsButton:hover {
+	background-color: #94167F;
+	color: white;
+}
+
+#diceButton {
+	background-color: #F9AC53;
+	border: 2px solid #153CB4;
+	color: #153CB4;
+	padding: 14px 40px;
+	text-align: center;
+	font-size: 24px;
+	border-radius: 8px;
+	transition-duration: 0.4s;
+	font-family: 'Roboto', sans-serif;
+}
+
+#diceButton:hover {
+	background-color: #153CB4;
+	color: white;
+}
+
+#contentButton {
+	background-color: #F9AC53;
+	border: 2px solid #153CB4;
+	color: #153CB4;
+	padding: 14px 40px;
+	text-align: center;
+	font-size: 24px;
+	border-radius: 8px;
+	transition-duration: 0.4s;
+	font-family: 'Roboto', sans-serif;
+}
+
+#contentButton:hover {
+	background-color: #153CB4;
+	color: white;
+}
+
+#rpgInfoTitle {
+	text-align: center;
+}
+
+#guideTitle {
+	text-align: center;
+	font-family: 'Bebas Neue', cursive;
+	color: #E93479;
+	font-size: 75px;
+}
+
+#dice1, #dice2, #dice3, #drFlag, #contentIcon {
+	color: white;
+}
+
+#rpgBody, #diceBody, #contentBody1 {
+	text-align: center;
+	background-color: #300350;
+	background-repeat: no-repeat;
+	width: 900px;
+	border-radius: 8px;
+	padding: 14px 40px;
+	text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#rpgIntro, #diceIntro, #dragRace1, #dragRace2, #dragRace3, #dragRace4, #dragRace5, #dragRace6, #content1, #content2 {
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	text-align: center;
+	font-size: 30px;
+}
+
+#diceRPGs {
+	text-align: center;
+}
+
+#diceRPGsTitle, #contentRPGsTitle {
+	font-family: 'Bebas Neue', cursive;
+	color: #E93479;
+	font-size: 50px;
+	text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+#dragRaceRPGsTitle {
+	font-family: 'Bebas Neue', cursive;
+	color: #153CB4;
+	font-size: 40px;
+	text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+#dragRaceBody, #dragRaceBody2, #dragRaceBody3, #dragRaceBody4, #dragRaceBody5, #contentBody2, #contentBody3 {
+	text-align: center;
+	background-color: #300350;
+	background-repeat: no-repeat;
+	width: 700px;
+	border-radius: 8px;
+	padding: 14px 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#drEx1, #drEx2 {
+	display: block;
+	background-color: #300350;
+	background-repeat: no-repeat;
+	border-radius: 8px;
+	padding: 14px 40px;
+	text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#diceRolls, #challenge, #contentList {
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	text-align: left;
+	font-size: 30px;
+}

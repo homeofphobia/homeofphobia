@@ -1,0 +1,104 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<title>The Home of Phobia</title>
+		<link href='rpgStyle.css' rel='stylesheet'>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap" rel="stylesheet">
+		<script src="https://kit.fontawesome.com/06a1676993.js" crossorigin="anonymous"></script>
+	</head>
+	<body id='hopBody'>
+		<div id="topHat">
+			<div id="headerDiv">
+				<p><br></p>
+				<h1 id='serverName'>The Home of Phobia</h1>
+			</div>
+			<div id="bodyDiv">
+				<button id='homeButton' class='btn btn-success' onclick="location.href='./index.html'">Home</button>
+				<button id='inviteButton' class='btn btn-success' onclick="window.open('https://discord.com/invite/thehomeofphobia','_blank')">Server Invite</button>
+				<button id='rpgsButton' class='btn btn-success' onclick="location.href='./rpgs.html'">RPGs</button>
+			</div>
+		</div>
+		<p><br></p>
+		<div id="rpgInfoTitle">
+			<h2 id="guideTitle"><i id="dice1" class="fas fa-dice-six fa-spin" style="--fa-animation-duration: 20s;"></i></i>   RPG GUIDE   <i id="dice2" class="fas fa-dice-one fa-spin" style="--fa-animation-duration: 20s;"></i></i></h2>
+		</div>
+		<div id="rpgBody">
+			<p id="rpgIntro">If you’re interested in playing our RPGs but has no idea how they work, we’re here to help you! This guide will give you the basic rules and mechanics of our staple games, but they shoud apply for most of them!</p>
+		</div>
+		<p><br></p>
+		<div id="rpgNav">
+			<button id='diceButton' class='btn btn-success' onclick="location.href='#diceRPGsTitle'">Dice Based</button>
+			<button id='contentButton' class='btn btn-success' onclick="location.href='#contentRPGsTitle'">Content Based</button>
+		</div>
+		<div id="diceRPGsTitle">
+			<h3 id="diceTitle"><i id="dice3" class="fas fa-dice"></i> Dice Based RPGs</h3>
+		</div>
+		<div id="diceBody">
+			<p id="diceIntro">In these games, most if not everything is determined by dice rolls. The die command is !#d6, # being the number of dice you are rolling. All the dice resulting in 4, 5 and 6 are “successful” (passes), and all 1, 2 and 3 “failed”.</p>
+		</div>
+		<div id="dragRaceRPGsTitle">
+			<h4 id="dragRaceTitle"><i id="drFlag" class="fas fa-flag-checkered"></i> Drag Race RPGs</h4>
+		</div>
+		<div id="dragRaceBody">
+			<p id="dragRace1">In these games you will roleplay as a drag race contestant or an original character, which are assigned stats that will be tested through dice.</p>
+		</div>
+		<p><br></p>
+		<img id="drEx1" src="dragRaceExample1.png" alt="Character Stat Example">
+		<p><br></p>
+		<div id="dragRaceBody2">
+			<p id="dragRace2">In the beginning of each episode, you will be asked to “roll for the wokroom”. You will send “!1d6” and the result of the die roll will give you an advantage or disadvantage for the main challenge.</p>
+			<ul id="diceRolls">
+				<li><strong>1</strong> = -1 pass</li>
+				<li><strong>2</strong> = -1 die</li>
+				<li><strong>3</strong> = Judge visit (roll !1d6) (1-3 -1 die) (4-6 +1 die)</li>
+				<li><strong>4</strong> = Roll potential: Roll # dice corresponding to potential. The # of passes is the # of points you get to distribute to your stats.</li>
+				<li><strong>5</strong> = +1 die</li>
+				<li><strong>6</strong> = +1 pass</li>
+			</ul>
+		</div>
+		<p><br></p>
+		<div id="dragRaceBody3">
+			<p id="dragRace3">Each main challenge will ask for two stats, and the combination of them determine how many dice you can roll. Example:</p>
+			<ul id="challenge">
+				<li>Your character is Brooke Lynn Hytes.</li>
+				<li>The challenge is Snatch Game.</li>
+				<li>You will be asked to come up with a character (flavor text) and roll Talent + Humor. (look at the stat sheet above)</li>
+				<li>Brooke rolls (3 + 3 =) 6. You sends your character description, answer Snatch Game questions, and then <strong>!6d6</strong>.</li>
+			</ul>
+			<p id="dragRace4">In the following example roll, Brooke would get 2 points.</p>
+		</div>
+		<p><br></p>
+		<img id="drEx2" src="dragRaceExample2.png" alt="Brooke Lynn Hytes Roll">
+		<p><br></p>
+		<div id="dragRaceBody4">
+			<p id="dragRace5">After the challenge you will be asked for a runway look (you can find them on Pinterest, Google Images, Instagram, Tumblr, etc) and to roll !1d6 again. Runways are used for tie breakers.<br><br>When placements are announced, the top/bottom 2 will be asked to lip sync. A song and category will be given. If the category matches the contestant’s bonus, they gain +1 dice for this lip sync. When the music starts the contestants send gifs as if they were lip syncing. Then roll lip sync stat + bonus if it applies.
+Joining voice chat for the music is encouraged for a better experience but not necessary.</p>
+		</div>
+		<p><br></p>
+		<div id="dragRaceBody5">
+			<p id="dragRace6"><strong>Notable Drag Race RPGs:</strong> Drag Race Phobia, Queen of Phobes, TASS RPG, HADR, and a lot more.<br><br><strong>Other Dice Shows</strong><br>There are other RPGs that don’t follow the drag race format, but use similar mechanics. Some of them are: Total Aries RPG, The Pageants, Jan Loves Money. They will require different things than runway looks and drag race challenges, but the decisions are still mostly made through dice results.</p>
+			
+		</div>
+		<div id="contentRPGsTitle">
+			<h3 id="contentTitle"><i id="contentIcon" class="fas fa-paint-brush"></i> Content Based RPGs</h3>
+		</div>
+		<div id="contentBody1">
+			<p id="content1">In these games, the placements are determined by the material submitted, which is scored and critiqued by a panel of “judges”. The format will differ in each game, as these usually do not use the same mechanics. Here are some examples of Content Based RPGs and what they entail:</p>
+		</div>
+		<p><br></p>
+		<div id="contentBody2">
+			<ul id="contentList">
+				<li><strong>The Jichelle Show:</strong> A drag race based competition, in which you roleplay as an original character. Challenges and runways are given to be presented weekly. The challenges are similar to drag race (roast, snatch game, ball, branding).<br><br></li>
+				<li><strong>The Janprentice:</strong> Based on The Apprentice, the contestants are asked to work in challenges that involve branding, marketing strategy, team work, and all that.<br><br></li>
+				<li><strong>Escape the Phobia:</strong> Based on Escape the Night, a storyteller guides the contestants through the challenges, and the contestants have to improv in given situations. Their answers and performances are scored and judged.<br><br></li>
+				<li>Some content based games have a dice element to them, but it’s usually not the major scoring factor. Examples of mixed games: Phobia’s Next Top Model (ANTM Based RPG), JOTO RPG (Drag Race Based RPG with a twist).</li>
+			</ul>
+		</div>
+		<p><br></p>
+		<div id="contentBody3">
+			<p id="content2">If you have any questions, contact RPG Management (listed in #rules-n-info) or talk to one of the RPG hosts. #rpg-chat is always a good place! Stay tuned for audition forms, as we are about to enter a new RPG season. We hope you enjoy and have fun!</p>
+		</div>
+	</body>
+</html>
