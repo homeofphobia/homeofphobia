@@ -19,7 +19,7 @@
 	text-align: center;
 }
 
-#homeButton {
+#homeButton, #inviteButton, #rpgsButton {
 	background-color: #F62E97;
 	border: 2px solid #94167F;
 	color: #94167F;
@@ -31,41 +31,7 @@
 	font-family: 'Roboto', sans-serif;
 }
 
-#homeButton:hover {
-	background-color: #94167F;
-	color: white;
-}
-
-#inviteButton {
-	background-color: #F62E97;
-	border: 2px solid #94167F;
-	color: #94167F;
-	padding: 14px 40px;
-	text-align: center;
-	font-size: 24px;
-	border-radius: 8px;
-	transition-duration: 0.4s;
-	font-family: 'Roboto', sans-serif;
-}
-
-#inviteButton:hover {
-	background-color: #94167F;
-	color: white;
-}
-
-#rpgsButton {
-	background-color: #F62E97;
-	border: 2px solid #94167F;
-	color: #94167F;
-	padding: 14px 40px;
-	text-align: center;
-	font-size: 24px;
-	border-radius: 8px;
-	transition-duration: 0.4s;
-	font-family: 'Roboto', sans-serif;
-}
-
-#rpgsButton:hover {
+#homeButton:hover, #inviteButton:hover, #rpgsButton:hover {
 	background-color: #94167F;
 	color: white;
 }
