@@ -44,80 +44,22 @@
 	color: white;
 }
 
-#diceButton, #contentButton, #wikiButton {
-	background-color: #F9AC53;
-	border: 2px solid #153CB4;
-	color: #153CB4;
-	padding: 14px 40px;
-	text-align: center;
-	font-size: 24px;
-	border-radius: 8px;
-	transition-duration: 0.4s;
-	font-family: 'Roboto', sans-serif;
-}
-
-#diceButton:hover, #contentButton:hover, #wikiButton:hover {
-	background-color: #153CB4;
-	color: white;
-}
-
-#rpgInfoTitle {
+#mcTitle {
 	text-align: center;
 }
 
-#guideTitle {
+#mcServerTitle {
 	text-align: center;
 	font-family: 'Bebas Neue', cursive;
 	color: #E93479;
 	font-size: 75px;
 }
 
-#dice1, #dice2, #dice3, #drFlag, #contentIcon {
+#leaf, #tree {
 	color: white;
 }
 
-#rpgBody, #diceBody, #contentBody1 {
-	text-align: center;
-	background-color: #300350;
-	background-repeat: no-repeat;
-	width: 900px;
-	border-radius: 8px;
-	padding: 14px 40px;
-	text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#rpgIntro, #diceIntro, #dragRace1, #dragRace2, #dragRace3, #dragRace4, #dragRace5, #dragRace6, #content1, #content2 {
-	font-family: 'Roboto', sans-serif;
-	color: white;
-	text-align: center;
-	font-size: 30px;
-}
-
-#diceRPGs {
-	text-align: center;
-}
-
-#diceRPGsTitle, #contentRPGsTitle {
-	font-family: 'Bebas Neue', cursive;
-	color: #E93479;
-	font-size: 50px;
-	text-align: center;
-	margin-left: auto;
-    margin-right: auto;
-}
-
-#dragRaceRPGsTitle {
-	font-family: 'Bebas Neue', cursive;
-	color: #153CB4;
-	font-size: 40px;
-	text-align: center;
-	margin-left: auto;
-    margin-right: auto;
-}
-
-#dragRaceBody, #dragRaceBody2, #dragRaceBody3, #dragRaceBody4, #dragRaceBody5, #contentBody2, #contentBody3 {
+#mcBody, #mcRules {
 	text-align: center;
 	background-color: #300350;
 	background-repeat: no-repeat;
@@ -128,7 +70,21 @@
     margin-right: auto;
 }
 
-#drEx1, #drEx2 {
+#serverInfoTitle, #rulesTitle {
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	text-align: center;
+	font-size: 30px;
+}
+
+#serverInfoList, #rulesList {
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	text-align: left;
+	font-size: 30px;
+}
+
+#mcSpawn {
 	display: block;
 	background-color: #300350;
 	background-repeat: no-repeat;
@@ -137,13 +93,6 @@
 	text-align: center;
     margin-left: auto;
     margin-right: auto;
-}
-
-#diceRolls, #challenge, #contentList {
-	font-family: 'Roboto', sans-serif;
-	color: white;
-	text-align: left;
-	font-size: 30px;
 }
 
 #calendar {

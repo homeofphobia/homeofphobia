@@ -19,7 +19,7 @@
 	text-align: center;
 }
 
-#homeButton, #inviteButton, #rpgButton {
+#homeButton, #inviteButton, #rpgButton, #mcButton {
 	background-color: #F62E97;
 	border: 2px solid #94167F;
 	color: #94167F;
@@ -31,7 +31,7 @@
 	font-family: 'Roboto', sans-serif;
 }
 
-#homeButton:hover, #inviteButton:hover, #rpgButton:hover {
+#homeButton:hover, #inviteButton:hover, #rpgButton:hover, #mcButton:hover {
 	background-color: #94167F;
 	color: white;
 }
